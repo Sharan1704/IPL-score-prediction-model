@@ -1,7 +1,7 @@
 # IPL-score-prediction-model
 This repository contains a cricket score prediction project using a neural network model. The project leverages a dataset of historical IPL match data to train the model and predict the final score of a cricket match based on various in-game features.
 
-Here's a breakdown of the project:
+This model includes:
 
 Data Collection and Cleaning:
 
