@@ -1,22 +1,22 @@
 # IPL-score-prediction-model
 This repository contains a cricket score prediction project using a neural network model. The project leverages a dataset of historical IPL match data to train the model and predict the final score of a cricket match based on various in-game features.
 
-This model includes:
+#This model includes:
 
 Data Collection and Cleaning:
 
 The project uses an IPL dataset (ipl_data.csv) containing information about matches, players, and performance statistics.
 Data cleaning involves handling missing values and converting data types (e.g., date to datetime).
-Feature Engineering:
 
+Feature Engineering:
 The project extracts relevant features from the dataset to improve model accuracy. These include:
 Date-related features (year, month, day, day of the week).
 Rolling averages of runs and wickets.
 Interaction features (e.g., batting team vs. bowling team).
 Cumulative statistics (e.g., cumulative runs and wickets).
 Player and venue statistics (e.g., average runs scored by a batsman at a specific venue).
-Data Preprocessing:
 
+Data Preprocessing:
 Categorical features are encoded using one-hot encoding to convert them into numerical representations.
 Numerical features are standardized using StandardScaler to ensure they have a similar range of values.
 Model Building:
